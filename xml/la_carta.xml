@@ -1,0 +1,87 @@
+<platos>
+    <Entrantes nombre="TEQUEÑOS (4)" precio="5,60€">
+        <caracteristicas nombre="Dedos rellenos de queso, acompañados de la salsa Moica." />
+    </Entrantes>
+    <Entrantes nombre="NACHOS CON QUESO" precio="7,80€">
+        <caracteristicas nombre="Acompañados de guacamole hecho al momento, pico de gallo y crema agria." />
+    </Entrantes>
+    <Entrantes nombre="NACHOS MEXICANOS" precio="13,90€">
+        <caracteristicas nombre="Acompañados de guacamole hecho al momento, pico de gallo, frijoles con carne al estilo moica y crema agria." />
+    </Entrantes>
+    <Entrantes nombre="SALCHIPAPA MOICA" precio="8,40€">
+        <caracteristicas nombre="Patata casera acompañadas de salchicha ahumada, Parmesano, carne Moica, ketchup y mayonesa." />
+    </Entrantes>
+
+    <HAMBURGUESAS nombre="BURGER DEL MES" precio="12.60€">
+        <caracteristicas nombre="Pregunta por la burger del mes." />
+    </HAMBURGUESAS>
+    <HAMBURGUESAS nombre="SENCILLA" precio="9.20€">
+        <caracteristicas nombre="120g de carne, lechuga batavia, tomate, queso gouda y mayonesa." />
+    </HAMBURGUESAS>
+    <HAMBURGUESAS nombre="CLÁSICA" precio="10.65€">
+        <caracteristicas nombre="200g de carne, delicioso queso cheddar Americano, huevo, lechuga batavia, tomate, cebolla morada y mayonesa." />
+    </HAMBURGUESAS>
+    <HAMBURGUESAS nombre="FUNGHI" precio="11.65€">
+        <caracteristicas nombre="200g de carne, queso gouda, lechuga batavia, cebolla caramelizada, bacon, acompañada de champiñones salteados en salsa mostaneza." />
+    </HAMBURGUESAS>
+    <HAMBURGUESAS nombre="MEXICANA" precio="10.95€">
+        <caracteristicas nombre="200g de carne, queso gouda, lechuga batavia, acompañada de un delicioso guacamole picante hecho al momento." />
+    </HAMBURGUESAS>
+    <HAMBURGUESAS nombre="CHEESBACON" precio="11.20€">
+        <caracteristicas nombre="200g de carne, queso cheddar, bacon, queso gouda, queso brie, cebolla caramelizada , lechuga batavia y mayonesa." />
+    </HAMBURGUESAS>
+
+    <Platos_Combinados nombre="Emperador, Ensalada y Patatas Fritas" precio="16,00€">
+        <caracteristicas nombre="Filete de pez espada. Se acompaña de una guarnición de ensalada valenciana y huevo frito." />
+    </Platos_Combinados>
+      <Platos_Combinados nombre="Parrillada Argentina" precio="18,99€">
+        <caracteristicas nombre="Una selección de carnes a la parrilla, como chorizo, morcilla, vacío y entraña, acompañada de papas fritas, ensalada mixta y chimichurri." />
+    </Platos_Combinados>
+      <Platos_Combinados nombre="Paella Valenciana" precio="16,00€">
+        <caracteristicas nombre="Arroz cocido con mariscos frescos, pollo, chorizo, guisantes y pimientos, sazonado con azafrán, servido con limón y alioli." />
+    </Platos_Combinados>
+      <Platos_Combinados nombre="Fajitas Mexicanas" precio="16,99€">
+        <caracteristicas nombre="Tiras de carne marinada (pollo, res o camarones) cocidas con pimientos y cebollas, servidas en una sartén caliente, acompañadas de tortillas de maíz, guacamole, crema agria, queso rallado y arroz mexicano." />
+    </Platos_Combinados>
+      <Platos_Combinados nombre="Plato Mediterráneo" precio="12,99€">
+        <caracteristicas nombre="Una combinación de sabores mediterráneos que incluye falafel, hummus, tabbouleh, tzatziki, aceitunas, tomates y pita caliente." />
+    </Platos_Combinados>
+
+    
+    <postres nombre="Tiramisú" precio="6.90€">
+        <caracteristicas nombre="Capas de bizcocho de café empapado en licor de café, crema de mascarpone y cacao en polvo. " />
+    </postres>
+    <postres nombre="Cheesecake de Fresa" precio="5.50€">
+        <caracteristicas nombre="Delicioso pastel de queso cremoso sobre una base de galleta, cubierto con salsa de fresa y trozos de fruta fresca." />
+    </postres>
+   <postres nombre="Coulant de Chocolate" precio="7.90€">
+        <caracteristicas nombre="Un tierno bizcocho de chocolate con un centro fundido de chocolate caliente, servido con helado de vainilla." />
+    </postres>
+    <postres nombre="Frutas Frescas con Crema Batida" precio="4.99€">
+        <caracteristicas nombre="Delicioso pastel de queso cremoso sobre una base de galleta, cubierto con salsa de fresa y trozos de fruta fresca." />
+    </postres>
+   <postres nombre="Helado Sundae" precio="6.50€">
+        <caracteristicas nombre="Tres bolas de helado de tu elección, cubiertas con salsa de chocolate, caramelo o fresa, nueces picadas, crema batida y una cereza en la parte superior." />
+    </postres>
+
+    <bebidas nombre="VINOS " precio="4€">
+        <caracteristicas nombre="Vino tinto (Merlot, Cabernet Sauvignon, Malbec, Pinot Noir)" />
+        <caracteristicas nombre="Vino blanco (Chardonnay, Sauvignon Blanc, Riesling, Pinot Grigio)" />
+        <caracteristicas nombre="Vino rosado" />
+        <caracteristicas nombre="Espumante o champagne" />
+    </bebidas>
+     <bebidas nombre="CERVEZAS " precio="4€">
+        <caracteristicas nombre="Cervezas artesanales locales" />
+        <caracteristicas nombre="Cervezas importadas" />
+        <caracteristicas nombre="Cervezas de barril (ale, lager, stout, IPA)" />
+    </bebidas>
+         <bebidas nombre="AGUA " precio="1.5€">
+    </bebidas>
+    <bebidas nombre="BEBIDAS CALIENTES: " precio="2€">
+        <caracteristicas nombre="Café (espresso, americano, cappuccino, latte, macchiato)" />
+        <caracteristicas nombre="Té (negro, verde, blanco, herbal)" />
+        <caracteristicas nombre="Chocolate caliente" />
+        <caracteristicas nombre="Café irlandés" />
+    </bebidas>
+    
+</platos>

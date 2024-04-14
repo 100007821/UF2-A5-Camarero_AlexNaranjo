@@ -1,0 +1,108 @@
+.salsa-regular {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#header {
+  height: 65vh;
+  width: 100%;
+  background-image: url('../img/imagen.png');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  object-fit: cover;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 50px;
+  border: solid white 1px;
+  background-color: rgb(110, 222, 239);
+  border-radius: 2px;
+  padding: 2%;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  border: solid white 1px;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5%;
+
+}
+
+.columna-2{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.columna-3{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}   
+.columna-4{
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  border: solid white 1px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 2px;
+  padding: 2%;
+}
+
+.restaurante{
+  text-align: center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: column;
+  min-height: 200px;
+  border: 2px solid rgb(250, 250, 250);
+
+}
+
+p.restaurante{
+  font-size: 20px;
+  color:white;
+  text-align: justify;
+
+}
+
+.img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* RESPOSIVE */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .columna-2, .columna-3 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  p.restaurante {
+    font-size: 0.8rem;
+  }
+}
+
